@@ -4,6 +4,7 @@
   "description": "Web front-end for lal",
   "main": "index.js",
   "dependencies": {
+    "@lal/card": "0.0.4",
     "react": "15.5",
     "react-dom": "15.5",
     "react-native-web": "0.0.96"

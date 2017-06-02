@@ -14,6 +14,7 @@ const babelLoaderConfiguration = {
   include: [
     path.resolve(__dirname, 'src'),
     path.resolve(__dirname, 'node_modules/react-native-uncompiled'),
+    path.resolve('node_modules/@lal'),
     path.resolve('../lal-components/packages'),
   ],
   use: {

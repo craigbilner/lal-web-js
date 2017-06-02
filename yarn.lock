@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@lal/card@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@lal/card/-/card-0.0.4.tgz#dfe8f9e6548e128a52c91e38cb26cfddafac6210"
+  dependencies:
+    react "15.5.4"
+    react-dom "15.5.4"
+    react-native-web "0.0.96"
+
 abab@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -3299,7 +3307,7 @@ react-deep-force-update@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-2.0.1.tgz#4f7f6c12c3e7de42f345992a3c518236fa1ecad3"
 
-react-dom@15.5:
+react-dom@15.5, react-dom@15.5.4:
   version "15.5.4"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.5.4.tgz#ba0c28786fd52ed7e4f2135fe0288d462aef93da"
   dependencies:
@@ -3360,7 +3368,7 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@15.5:
+react@15.5, react@15.5.4:
   version "15.5.4"
   resolved "https://registry.yarnpkg.com/react/-/react-15.5.4.tgz#fa83eb01506ab237cdc1c8c3b1cea8de012bf047"
   dependencies:
