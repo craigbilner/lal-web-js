@@ -9,7 +9,8 @@ const render = Component => () => (
   </AppContainer>
 );
 
-const register = () => AppRegistry.registerComponent('LalApp', () => render(App));
+const appName = 'LalApp';
+const register = () => AppRegistry.registerComponent(appName, () => render(App));
 
 if (module.hot) {
   // Rather than watch a specific file, watch all the things
@@ -19,6 +20,6 @@ if (module.hot) {
 }
 
 register();
-AppRegistry.runApplication('LalApp', {
+AppRegistry.runApplication(appName, {
   rootTag: document.getElementById('react-root'),
 });
