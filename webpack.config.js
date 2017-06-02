@@ -13,7 +13,8 @@ const babelLoaderConfiguration = {
   // Add every directory that needs to be compiled by Babel during the build
   include: [
     path.resolve(__dirname, 'src'),
-    path.resolve(__dirname, 'node_modules/react-native-uncompiled')
+    path.resolve(__dirname, 'node_modules/react-native-uncompiled'),
+    path.resolve('../lal-components/packages'),
   ],
   use: {
     loader: 'babel-loader',
