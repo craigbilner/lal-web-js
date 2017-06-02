@@ -1,7 +1,6 @@
 import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 
-// Components
 const Card = ({ children }) => <View style={styles.card}>{children}</View>;
 const Title = ({ children }) => <Text style={styles.title}>{children}</Text>;
 const Photo = ({ uri }) => <Image source={{ uri }} style={styles.image}/>;
@@ -12,7 +11,6 @@ const App = () => (
   </Card>
 );
 
-// Styles
 const styles = StyleSheet.create({
   card: {
     flexGrow: 1,

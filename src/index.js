@@ -9,17 +9,16 @@ const render = Component => () => (
   </AppContainer>
 );
 
-// App registration and rendering
-AppRegistry.registerComponent('MyApp', () => render(App));
+const register = () => AppRegistry.registerComponent('LalApp', () => render(App));
 
-// Hot Module Replacement API
 if (module.hot) {
   // Rather than watch a specific file, watch all the things
   module.hot.accept();
 
-  AppRegistry.registerComponent('ReactNavigationExamples', () => render(App));
+  register();
 }
 
-AppRegistry.runApplication('MyApp', {
+register();
+AppRegistry.runApplication('LalApp', {
   rootTag: document.getElementById('react-root'),
 });
